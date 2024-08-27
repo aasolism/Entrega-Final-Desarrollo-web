@@ -1,0 +1,34 @@
+// Header Section styles
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/header-bg.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .header-content {
+        text-align: center;
+        color: #ffffff;
+
+        h1 {
+            font-size: 7vmin;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            color: #ffffff;
+            opacity: 0;
+            transform: scale(0.5);
+            animation: zoomIn 1s ease-in-out forwards;
+        }
+
+        h2 {
+            animation: slideIn 1s ease-in-out forwards;
+            opacity: 0;
+            transform: translateX(-100%);
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+    }
+}

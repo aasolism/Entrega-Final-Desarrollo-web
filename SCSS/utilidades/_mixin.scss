@@ -1,0 +1,4 @@
+// Mixins
+@mixin transition($property, $duration, $ease) {
+  transition: $property $duration $ease;
+}

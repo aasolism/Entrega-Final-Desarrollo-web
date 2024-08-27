@@ -1,0 +1,51 @@
+// Contact page styles
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: $primary-color;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid $secondary-color;
+            background-color: #fff;
+        }
+
+        button {
+            align-self: center;
+            padding: 10px 20px;
+            background-color: $primary-color;
+            color: $button-text-color;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            @include transition(background-color, 0.3s, ease);
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+        }
+    }
+
+    .contact-info {
+        margin-top: 20px;
+        font-size: 14px;
+        color: $text-color;
+        text-align: center;
+    }
+}
