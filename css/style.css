@@ -221,8 +221,6 @@ ul {
   color: #7c7c7c;
 }
 
-/*# sourceMappingURL=style.css.map */
-
 .portafolio {
   padding: 5rem 0;
 }
@@ -289,43 +287,43 @@ ul {
   margin-bottom: 20px;
   color: #ffffff;
 }
-/* Enhanced Media Queries for better responsiveness */
+
 @media (max-width: 768px) {
     .header-bg, .communication-bg {
-        height: 50vh; /* Reduce the height for smaller screens */
+        height: 50vh; 
         background-size: cover;
         background-position: center;
     }
 
     .portfolio .portfolio-item {
-        flex: 1 1 100%; /* Ensure items are full width on mobile */
+        flex: 1 1 100%; 
         max-width: 100%;
     }
 
     .navbar-nav {
-        flex-direction: column; /* Stack nav items vertically */
+        flex-direction: column; 
     }
 
     .navbar-nav .nav-link {
         padding: 15px;
-        text-align: center; /* Center align text */
+        text-align: center; 
     }
 }
 
 @media (max-width: 480px) {
     .header-bg, .communication-bg {
-        height: 40vh; /* Further reduce height for very small screens */
+        height: 40vh; 
         background-size: cover;
         background-position: center;
     }
 
     .navbar-brand img {
-        width: 70%; /* Adjust logo size */
+        width: 70%; 
     }
 }
 
 
-/* Asegurar que el contenedor de la imagen ocupe el 100% en dispositivos móviles */
+
 @media (max-width: 768px) {
   .image-col {
       width: 100%;
@@ -333,30 +331,30 @@ ul {
   }
 }
 
-/* Estilo base para el contenedor del mapa */
+
 .map-container {
-  width: 100%;  /* El mapa ocupa todo el ancho del contenedor */
-  height: 50vh; /* Altura del mapa ocupando 50% de la altura de la ventana gráfica */
-  margin-bottom: 20px; /* Espacio inferior */
+  width: 100%;  
+  height: 50vh; 
+  margin-bottom: 20px; 
 }
 
-/* Ajustar altura del mapa para pantallas medianas (tablets) */
+
 @media (max-width: 1024px) {
   .map-container {
-      height: 40vh; /* Altura del mapa reducida para tablets */
+      height: 40vh; 
   }
 }
 
-/* Ajustar altura del mapa para pantallas pequeñas (móviles) */
+
 @media (max-width: 768px) {
   .map-container {
-      height: 30vh; /* Altura del mapa reducida aún más para móviles */
+      height: 30vh; 
   }
 }
 
-/* Ajuste adicional para iframe */
+
 .map-iframe {
-  width: 100%; /* El iframe ocupa todo el ancho del contenedor */
-  height: 100%; /* El iframe ocupa toda la altura del contenedor */
-  border: 0; /* Eliminar bordes del iframe */
+  width: 100%; 
+  height: 100%; 
+  border: 0;
 }
